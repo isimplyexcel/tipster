@@ -37,6 +37,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+- I ran into an issue where my app displayed a blank black screen because something went wrong with the navigation controller. I was able to resolve this issue by googling the error message that appeared in the console. It turned out that my navigation controller was not set to be the initial view controller.
+
+- Finding the stepper component was a little difficult because I did not know what that component was called. Once again, googling and stackoverflow helped me find the right name for incrementing and decrementing party size. 
+
 ## License
 
     Copyright [2019] [isimplyexcel]
