@@ -15,7 +15,7 @@
 		DA1A743D23274A46007CE759 /* tipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A743C23274A46007CE759 /* tipsterTests.swift */; };
 		DA1A744823274A46007CE759 /* tipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A744723274A46007CE759 /* tipsterUITests.swift */; };
 		DA1A74582327760C007CE759 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A74572327760C007CE759 /* SettingsViewController.swift */; };
-		DA42C1BF232C347400E60417 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA42C1BE232C347400E60417 /* logo.png */; };
+		DACE12542352EF3C00688DE8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DACE12532352EF3C00688DE8 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		DA1A744723274A46007CE759 /* tipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsterUITests.swift; sourceTree = "<group>"; };
 		DA1A744923274A46007CE759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA1A74572327760C007CE759 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		DA42C1BE232C347400E60417 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../abacus/ios/AppIcon.appiconset/logo.png; sourceTree = "<group>"; };
+		DACE12532352EF3C00688DE8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				DA1A742E23274A46007CE759 /* Assets.xcassets */,
 				DA1A743023274A46007CE759 /* LaunchScreen.storyboard */,
 				DA1A743323274A46007CE759 /* Info.plist */,
-				DA42C1BE232C347400E60417 /* logo.png */,
+				DACE12532352EF3C00688DE8 /* logo.png */,
 				DA1A74572327760C007CE759 /* SettingsViewController.swift */,
 			);
 			path = tipster;
@@ -199,13 +199,16 @@
 				TargetAttributes = {
 					DA1A742323274A44007CE759 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 					};
 					DA1A743723274A46007CE759 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = DA1A742323274A44007CE759;
 					};
 					DA1A744223274A46007CE759 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = DA1A742323274A44007CE759;
 					};
 				};
@@ -236,9 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1A743223274A46007CE759 /* LaunchScreen.storyboard in Resources */,
+				DACE12542352EF3C00688DE8 /* logo.png in Resources */,
 				DA1A742F23274A46007CE759 /* Assets.xcassets in Resources */,
 				DA1A742D23274A44007CE759 /* Main.storyboard in Resources */,
-				DA42C1BF232C347400E60417 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -467,7 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -487,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
 			};
@@ -508,7 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
 			};
@@ -528,7 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = tipster;
 			};
@@ -548,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulmin.tipsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = tipster;
 			};
